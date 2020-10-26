@@ -1,0 +1,97 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.main{
+  max-width: 97vw;
+  margin: auto;
+}
+
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./Bakgrunn.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+ul{
+  float: right;
+  margin-top: 28px;
+  margin-right: 8px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+  color: white;
+}
+
+ul li.aktiv a{
+  background-color: lightgrey;
+  color: black;
+}
+
+ul li a:hover{
+  background-color: lightgrey;
+  color: black;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  float: left;
+  transform: translate(-50%, -50%);
+
+}
+.title h1{
+  color: white;
+  margin-left:  8vw;
+  font-size: 5vw;
+  a
+
+}
+.title h2{
+  color: white;
+  font-size: 3vw;
+
+}
+
+.logo img{
+  float: left;
+  width: 135px;
+  height: 140px;
+  margin-top: 28px;
+}
+
+.omoss{
+  padding: 5vw;
+  float: left;
+  padding-top: 49vh;
+  padding-bottom: 49vh;
+}
+
+.omossi{
+  padding: 5vw;
+
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-small30{width: 30%;}
+.col-small50{width: 50%;}
+.col-small70{width: 70%;}
+.col-small100{width: 100%;}
