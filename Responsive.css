@@ -4,10 +4,6 @@
   font-family: sans-serif;
   box-sizing: border-box;
 }
-.main{
-  max-width: 97vw;
-  margin: auto;
-}
 
 header{
   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./Bakgrunn.png);
@@ -15,34 +11,40 @@ header{
   background-size: cover;
   background-position: center;
 }
-
-
-ul{
-  float: right;
-  margin-top: 28px;
-  margin-right: 8px;
+p{
+  font-size: 2vw;
+}
+.main{
+  max-width: 97vw;
+  margin: auto;
 }
 
-ul li{
-  display: inline-block;
-}
-
-ul li a{
+.nav a{
+  float: left;
   text-decoration: none;
-  padding: 5px 20px;
-  border: 1px solid transparent;
   transition: 0.5s ease;
+  text-align: center;
   color: white;
+  width: 25%;
+  font-size: 1.5vw;
+
 }
 
-ul li.aktiv a{
+.nav a.active {
   background-color: lightgrey;
   color: black;
 }
 
-ul li a:hover{
+.nav a:hover{
   background-color: lightgrey;
   color: black;
+}
+.nav{
+  float: right;
+  overflow: hidden;
+  margin-top: 28px;
+
+
 }
 
 .title{
@@ -57,7 +59,7 @@ ul li a:hover{
   color: white;
   margin-left:  8vw;
   font-size: 5vw;
-  a
+
 
 }
 .title h2{
@@ -65,12 +67,14 @@ ul li a:hover{
   font-size: 3vw;
 
 }
+.logo{
+  float: left;
 
+}
 .logo img{
   float: left;
-  width: 135px;
-  height: 140px;
-  margin-top: 28px;
+  width: 15vw;
+  height: 15.2vw;
 }
 
 .omoss{
@@ -79,9 +83,47 @@ ul li a:hover{
   padding-top: 49vh;
   padding-bottom: 49vh;
 }
+.omoss h2{
+  font-size: 5vw;
+}
 
 .omossi{
+  float: right;
   padding: 5vw;
+  padding-top: 40vh;
+  padding-bottom: 40vh;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+section.banner{
+  background: none;
+  background-size: cover;
+  text-align: center;
+}
+a.btn_down{
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  left:47vw;
+  font-size: 3.5vw;
+  border: 2px solid #fff;
+  border-radius: 5vw;
+  height: 5vw;
+  width: 5vw;
+  line-height: 5vw;
+
+}
+a.btn_down:hover{
+  background: #305699;
+}
+
+[class*="col-"]{
 
 }
 
@@ -90,13 +132,13 @@ ul li a:hover{
   clear: both;
   display: table;
 }
-
+.col-small15{width: 15%;}
 .col-small30{width: 30%;}
+.col-small40{width: 40%;}
 .col-small50{width: 50%;}
 .col-small70{width: 70%;}
 .col-small100{width: 100%;}
-<<<<<<< Updated upstream
-=======
+
 
 
 @media only screen and (max-width: 600px){
@@ -131,4 +173,3 @@ ul li a:hover{
   }
 
 }
->>>>>>> Stashed changes
