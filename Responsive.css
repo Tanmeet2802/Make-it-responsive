@@ -54,7 +54,7 @@ p{
 }
 .title h1{
   color: white;
-  margin-left:  2vw;
+  margin-left:  8vw;
   font-size: 5vw;
 
 }
@@ -84,13 +84,15 @@ p{
   width: 15vw;
   height: 15.2vw;
 }
+.nede{
+  height: 100vh;
+}
 
 .omoss{
   padding: 5vw;
   float: left;
-  padding-top: 49vh;
-  padding-bottom: 49vh;
-}
+  padding-top: 45vh;
+  }
 .omoss h2{
   font-size: 5vw;
 }
@@ -102,6 +104,7 @@ p{
   padding-bottom: 40vh;
 
 }
+
 .ansatttekst{
   height: 100vh;
   padding: 3vw;
@@ -227,33 +230,63 @@ a.btn_down:hover{
   margin: 10px 0;
 
 }
+.kontakttittel{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  float: left;
+  transform: translate(-50%, -50%);
+
+}
+.kontakttittel h1{
+  color: white;
+  font-size: 5vw;
+}
 
 
 
 
 
+.innovationtittel{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  float: left;
+  transform: translate(-50%, -50%);
 
-#innovationtittel1{
+}
+.innovationtittel h1{
   color: white;
   margin-left:  1.7vw;
   font-size: 5vw;
 }
-#innovationtittel2{
+.innovationtittel h2{
   color: white;
   margin-left:  9vw;
   font-size: 5vw;
 }
 
-#innovationom{
-margin-top: -12vw;
+.innovationtittel3{
+  padding: 5vw;
+  float: left;
+  padding-top: 20vh;
+}
+.innovationtittel3 h2{
+  font-size: 4vw;
+}
+.innovationom{
+  padding: 5vw;
+  float: left;
+  padding-top: 15vh;
+
 }
 .innovationfremtidigplanbilde{
-  float: right;
-  width: 60vw;
-  margin-top: 3vw;
+  float: left;
+  padding-top: 10vh;
 }
+
 [class*="col-"]{
-  border: black solid 1px;
+  border: black solid 0px;
 
 }
 
@@ -285,20 +318,19 @@ margin-top: -12vw;
   .nav a{width: 25%;
   font-size: 4vw;}
   .title{top: 70%;}
-  .omoss{padding: 10vw;
+  .innovationtittel{top: 70%;}
+  .omoss{
+    padding: 10vw;
     text-align:center;}
-  .sectionh{
-    margin-left: 15vw;
-  }
-  .sectionh h2{
-    font-size: 5vw;
-  }
-  .sectionh p{
-    font-size: 3vw;
-  }
-  .contact-right{
-    display: none;
-  }
+<<<<<<< HEAD  .innovationtittel3{
+    padding: 10vw;
+    text-align:center;}
+  .innovationtittel3 h2{
+    font-size: 5vw;}
+  .innovationom {padding-top: 5vh;}
+  .innovationom p{font-size: 3vw;}
+
+
 
 }
 
@@ -315,10 +347,12 @@ margin-top: -12vw;
   .nav{margin-top: 16vw;}
   .nav a{font-size: 3vw;}
   .title{top: 70%;}
+  .innovationtittel{top: 70%;}
   .omoss h2{
-    font-size: 10vw;
-  }
-  }
+    font-size: 10vw;}
+  .innovationtittel3 h2{
+    font-size: 5vw}
+  .innovationom p{font-size: 2.5vw;}
 
 }
 
