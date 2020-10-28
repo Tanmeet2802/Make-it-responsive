@@ -107,7 +107,7 @@ p{
   padding: 3vw;
   float: left;
   padding-top: 40vh;
-  
+
 }
 .ansatttekst h2{
   font-size: 4vw;
@@ -160,7 +160,7 @@ a.btn_down:hover{
 
 
 
-.contact{
+.nede{
   background: #FFFFFF;
   height: 100vh;
 
@@ -168,7 +168,7 @@ a.btn_down:hover{
 
 .line{
   height: 2px;
-  width: 100px;
+  width: 17vw;
   background: #000;
   display: inline-block;
 }
@@ -184,6 +184,9 @@ a.btn_down:hover{
 
 }
 
+
+
+
 .sectionh h2{
   text-transform: uppercase;
   font-size: 3vw;
@@ -196,7 +199,7 @@ a.btn_down:hover{
 
 .contact-left{
   float: left;
-  width: 50%;
+
 }
 
 
@@ -215,7 +218,6 @@ a.btn_down:hover{
 
 .contact-right{
   float: right;
-  width: 50%
   text-align: center;
 }
 
@@ -285,7 +287,18 @@ margin-top: -12vw;
   .title{top: 70%;}
   .omoss{padding: 10vw;
     text-align:center;}
-    
+  .sectionh{
+    margin-left: 15vw;
+  }
+  .sectionh h2{
+    font-size: 5vw;
+  }
+  .sectionh p{
+    font-size: 3vw;
+  }
+  .contact-right{
+    display: none;
+  }
 
 }
 
@@ -304,6 +317,7 @@ margin-top: -12vw;
   .title{top: 70%;}
   .omoss h2{
     font-size: 10vw;
+  }
   }
 
 }
