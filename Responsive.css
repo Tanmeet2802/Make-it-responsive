@@ -123,6 +123,29 @@ a.btn_down:hover{
   background: #305699;
 }
 
+#innovationtittel1{
+  color: white;
+  margin-left:  1.7vw;
+  font-size: 5vw;
+}
+#innovationtittel2{
+  color: white;
+  margin-left:  9vw;
+  font-size: 5vw;
+}
+#innovationtittel3{
+
+}
+
+#innovationom{
+margin-top: -12vw;
+}
+.innovationfremtidigplanbilde{
+  float: right;
+  width: 60vw;
+  margin-top: 3vw;
+}
+
 [class*="col-"]{
 
 }
@@ -155,6 +178,7 @@ a.btn_down:hover{
   .title{top: 70%;}
   .omoss{padding: 10vw;
     text-align:center;}
+    
 
 }
 
