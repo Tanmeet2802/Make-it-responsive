@@ -29,7 +29,6 @@ p{
   font-size: 1.5vw;
 
 }
-
 .nav a.active {
   background-color: lightgrey;
   color: black;
@@ -43,8 +42,6 @@ p{
   float: right;
   overflow: hidden;
   margin-top: 28px;
-
-
 }
 
 .title{
@@ -60,12 +57,23 @@ p{
   margin-left:  2vw;
   font-size: 5vw;
 
-
 }
 .title h2{
   color: white;
   font-size: 3vw;
 
+}
+.ansatttittel{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  float: left;
+  transform: translate(-50%, -50%);
+
+}
+.ansatttittel h1{
+  color: white;
+  font-size: 5vw;
 }
 .logo{
   float: left;
@@ -93,6 +101,33 @@ p{
   padding-top: 40vh;
   padding-bottom: 40vh;
 
+}
+.ansatttekst{
+  height: 100vh;
+  padding: 3vw;
+  float: left;
+  padding-top: 40vh;
+  
+}
+.ansatttekst h2{
+  font-size: 4vw;
+}
+.ansattboks{
+  height: 100vh;
+  float: right;
+
+}
+.ansatt{
+  float: left;
+  height: 33.3vh;
+}
+.ansatt h3{
+  padding-top: 3vh;
+  font-size: 2vw;
+}
+.ansatt p{
+  font-size: 1.5vw;
+  padding: 1vh;
 }
 
 html{
@@ -122,7 +157,6 @@ a.btn_down{
 a.btn_down:hover{
   background: #305699;
 }
-
 
 
 
@@ -197,19 +231,27 @@ a.btn_down:hover{
 
 
 
+#innovationtittel1{
+  color: white;
+  margin-left:  1.7vw;
+  font-size: 5vw;
+}
+#innovationtittel2{
+  color: white;
+  margin-left:  9vw;
+  font-size: 5vw;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+#innovationom{
+margin-top: -12vw;
+}
+.innovationfremtidigplanbilde{
+  float: right;
+  width: 60vw;
+  margin-top: 3vw;
+}
 [class*="col-"]{
+  border: black solid 1px;
 
 }
 
@@ -243,6 +285,7 @@ a.btn_down:hover{
   .title{top: 70%;}
   .omoss{padding: 10vw;
     text-align:center;}
+    
 
 }
 
