@@ -322,13 +322,25 @@ a.btn_down:hover{
   .omoss{
     padding: 10vw;
     text-align:center;}
-<<<<<<< HEAD  .innovationtittel3{
+  .innovationtittel3{
     padding: 10vw;
     text-align:center;}
   .innovationtittel3 h2{
     font-size: 5vw;}
   .innovationom {padding-top: 5vh;}
   .innovationom p{font-size: 3vw;}
+  .sectionh{
+  margin-left: 15vw;
+  }
+  .sectionh h2{
+    font-size: 5vw;
+  }
+  .sectionh p{
+    font-size: 3vw;
+  }
+  .contact-right{
+    display: none;
+  }
 
 
 
