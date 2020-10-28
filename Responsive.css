@@ -6,7 +6,7 @@
 }
 
 header{
-  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./Bakgrunn.png);
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./bakgrunn.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -146,7 +146,10 @@ a.btn_down:hover{
   .col-mob50{width: 50%;}
   .col-mob70{width: 70%;}
   .col-mob100{width: 100%;}
-  .logo img{margin-left: 40vw;}
+  .logo img{
+  margin-left: 32vw;
+  width: 30vw;
+  height: 30vw;}
   .nav a{width: 25%;
   font-size: 4vw;}
   .title{top: 70%;}
