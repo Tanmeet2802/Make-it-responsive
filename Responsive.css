@@ -57,7 +57,7 @@ p{
 }
 .title h1{
   color: white;
-  margin-left:  8vw;
+  margin-left:  2vw;
   font-size: 5vw;
 
 
@@ -123,6 +123,92 @@ a.btn_down:hover{
   background: #305699;
 }
 
+
+
+
+.contact{
+  background: #FFFFFF;
+  height: 100vh;
+
+}
+
+.line{
+  height: 2px;
+  width: 100px;
+  background: #000;
+  display: inline-block;
+}
+
+.wrapper{
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.sectionh{
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.sectionh h2{
+  text-transform: uppercase;
+  font-size: 3vw;
+  padding-top: 2vw;
+}
+
+.sectionh p{
+  font-size: 1.5vw;
+}
+
+.contact-left{
+  float: left;
+  width: 50%;
+}
+
+
+.contact-left input{
+  width: 100%;
+  margin-bottom: 15px;
+  height: 40px;
+  padding: 0 15px;
+}
+
+
+.contact-left textarea{
+  width: 100%;
+  padding: 15px;
+}
+
+.contact-right{
+  float: right;
+  width: 50%
+  text-align: center;
+}
+
+.address-area i{
+  font-size: 30px;
+  display: block;
+  margin: 10px 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [class*="col-"]{
 
 }
@@ -132,6 +218,8 @@ a.btn_down:hover{
   clear: both;
   display: table;
 }
+
+
 .col-small15{width: 15%;}
 .col-small30{width: 30%;}
 .col-small40{width: 40%;}
@@ -174,5 +262,14 @@ a.btn_down:hover{
   .omoss h2{
     font-size: 10vw;
   }
+
+}
+
+
+
+.address-area i{
+  font-size: 30px;
+  display: block;
+  margin: 10px 0;
 
 }
