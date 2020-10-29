@@ -106,7 +106,6 @@ p{
 }
 
 .ansatttekst{
-  height: 100vh;
   padding: 3vw;
   float: left;
   padding-top: 40vh;
@@ -115,12 +114,15 @@ p{
 .ansatttekst h2{
   font-size: 4vw;
 }
+.ansatttekst h1{
+  display: none;
+}
 .ansattboks{
-  height: 100vh;
   float: right;
 
 }
 .ansatt{
+  padding-top: 1vw;
   float: left;
   height: 33.3vh;
 }
@@ -131,6 +133,11 @@ p{
 .ansatt p{
   font-size: 1.5vw;
   padding: 1vh;
+}
+.ansatt img{
+  width: 12vw;
+  height: 30vh;
+  float: left;
 }
 
 html{
@@ -158,6 +165,22 @@ a.btn_down{
 
 }
 a.btn_down:hover{
+  background: #305699;
+}
+a.btn_up{
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  bottom: -80px;
+  left:6vw;
+  font-size: 3.5vw;
+  border: 2px solid ;
+  border-radius: 5vw;
+  height: 5vw;
+  width: 5vw;
+  line-height: 5vw;
+}
+a.btn_up:hover{
   background: #305699;
 }
 
@@ -286,7 +309,7 @@ a.btn_down:hover{
 }
 
 [class*="col-"]{
-  border: black solid 0px;
+  border: black solid opx;
 
 }
 
@@ -301,6 +324,7 @@ a.btn_down:hover{
 .col-small30{width: 30%;}
 .col-small40{width: 40%;}
 .col-small50{width: 50%;}
+.col-small60{width: 60%;}
 .col-small70{width: 70%;}
 .col-small100{width: 100%;}
 
@@ -312,16 +336,26 @@ a.btn_down:hover{
   .col-mob70{width: 70%;}
   .col-mob100{width: 100%;}
   .logo img{
-  margin-left: 32vw;
+  margin-left: 32.5vw;
   width: 30vw;
   height: 30vw;}
   .nav a{width: 25%;
   font-size: 4vw;}
   .title{top: 70%;}
+  .ansatttittel{top: 70%;}
   .innovationtittel{top: 70%;}
+  .kontakttittel{top: 70%;}
   .omoss{
     padding: 10vw;
     text-align:center;}
+  .omoss h2{font-size: 7vw;}  
+  .omossi{
+    padding-top:0vh;
+    padding-bottom: 0vh; 
+    padding-left: 20vw;
+    padding-right: 20vw;
+  } 
+  .omossi p{font-size: 4vw;}
   .innovationtittel3{
     padding: 10vw;
     text-align:center;}
@@ -329,6 +363,20 @@ a.btn_down:hover{
     font-size: 5vw;}
   .innovationom {padding-top: 5vh;}
   .innovationom p{font-size: 3vw;}
+ 
+  .ansatttekst{
+    text-align: center;
+    padding-top: 2vw;}
+  .ansatt{
+    margin-bottom: 10vw;}
+  .ansatt img{
+    height: 30vh;
+    width: 33vw;
+    margin-right:33vw; 
+    margin-left:33vw;}
+
+  .ansatt p{display: none;}
+  
   .sectionh{
   margin-left: 15vw;
   }
@@ -339,8 +387,7 @@ a.btn_down:hover{
     font-size: 3vw;
   }
   .contact-right{
-    display: none;
-  }
+    display: none;}
 
 
 
@@ -360,12 +407,20 @@ a.btn_down:hover{
   .nav a{font-size: 3vw;}
   .title{top: 70%;}
   .innovationtittel{top: 70%;}
+  .ansatttittel{top: 70%;}
+  .kontakttittel{top: 70%;}
   .omoss h2{
     font-size: 10vw;}
+  .omossi p{font-size: 3vw;}
   .innovationtittel3 h2{
     font-size: 5vw}
   .innovationom p{font-size: 2.5vw;}
-
+  .ansatttekst h2{
+  display:none;
+}
+  .ansatttekst h1{
+  display:initial;
+  font-size: 4vw;
 }
 
 
